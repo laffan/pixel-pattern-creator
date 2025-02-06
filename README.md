@@ -23,7 +23,7 @@ A tool to create pixel textures for brush creation in Procreate.
 
 That's it! Now you have a custom pixel texture brush.
 
-## Video Demo
+## Demo
 
 https://github.com/user-attachments/assets/303a778a-d4d0-46b3-91d3-8fc347b08b77
 
