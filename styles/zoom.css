@@ -1,0 +1,14 @@
+/* ============================================
+   ZOOM - Zoom control styling
+   ============================================ */
+
+.zoom-control {
+  background: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.zoom-control input[type="range"] {
+  vertical-align: middle;
+}

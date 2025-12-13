@@ -1,0 +1,17 @@
+/* ============================================
+   CANVAS - Canvas container styling
+   ============================================ */
+
+#canvasContainer {
+  width: 100%;
+  height: calc(100vh - 400px); /* Adjust based on your layout */
+  position: relative;
+  border: 1px solid #ccc;
+}
+
+#pixelCanvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

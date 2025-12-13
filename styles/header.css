@@ -1,0 +1,30 @@
+/* ============================================
+   HEADER - Header and navigation
+   ============================================ */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1em;
+}
+
+nav button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+#helpLink a {
+  text-decoration: none;
+  color: black;
+}

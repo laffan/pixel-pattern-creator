@@ -1,0 +1,61 @@
+/* ============================================
+   EDITOR - Editor controls and size controls
+   ============================================ */
+
+.editor-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.size-controls {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.step-btn {
+  background-color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+}
+
+.size-control-single > * {
+  height: 25px;
+  width: 25px;
+  background: #eeeeee;
+  margin: 0;
+}
+
+.size-control-single {
+  display: flex;
+}
+
+.size-control-single .step-btn[data-action="decrement"] {
+  border: 1px solid #000;
+  border-radius: 50% 0 0 50%;
+}
+.size-control-single .step-btn[data-action="increment"] {
+  border: 1px solid #000;
+  border-radius: 0 50% 50% 0;
+}
+
+.size-controls input[type="number"] {
+  text-align: center;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.size-control-x {
+  margin: 0 10px;
+  font-size: 15px;
+  opacity: 0.3;
+}
+
+#scaleDisplay,
+#editorScaleDisplay {
+  display: none;
+}
